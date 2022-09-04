@@ -24,6 +24,7 @@ namespace MarketStore.Controllers
         private readonly IWebHostEnvironment _webHostEnvirnment;
         //private readonly UserManager<IdentityUser> userManager;
         //private readonly SignInManager<IdentityUser> signInManager;
+        //tarab
         public HomeController(ModelContext context, IWebHostEnvironment webHostEnvirnment, ILogger<HomeController> logger)
         {
             _context = context;
